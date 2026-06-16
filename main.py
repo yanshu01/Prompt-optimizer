@@ -6,7 +6,7 @@ user_prompt = input("Enter prompt: ")
 optimized = optimize_prompt(user_prompt)
 
 response = chat(
-    model="llama3",
+    model="phi3:mini",
     messages=[
         {
             "role":"user",
